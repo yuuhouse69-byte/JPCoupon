@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>日本購物常用優惠券</title>
+  <style>
+    :root { color-scheme: light; --ink:#172033; --muted:#5f6d82; --line:#dce3ee; --card:#fff; --bg:#f5f7fb; --accent:#c51f3d; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--bg); font:16px/1.55 -apple-system,BlinkMacSystemFont,"Noto Sans TC","Noto Sans JP","Segoe UI",sans-serif; }
+    main { width:min(1100px, calc(100% - 32px)); margin:0 auto; padding:40px 0 56px; }
+    h1 { margin:0; font-size:clamp(28px,5vw,42px); letter-spacing:-.035em; }
+    .lead { margin:10px 0 24px; color:var(--muted); }
+    .notice { margin:0 0 26px; padding:14px 16px; border-left:4px solid var(--accent); border-radius:8px; background:#fff5f6; color:#4d2830; }
+    .coupon-list { display:grid; gap:20px; }
+    .coupon { overflow:hidden; border:1px solid var(--line); border-radius:16px; background:var(--card); box-shadow:0 5px 18px #24324a0a; }
+    .coupon-head { padding:20px 22px 12px; }
+    h2 { margin:0 0 3px; font-size:21px; line-height:1.3; }
+    .jp { display:block; color:var(--accent); font-size:14px; font-weight:700; }
+    p { margin:10px 0; color:var(--muted); font-size:14px; }
+    a { color:#004aad; font-weight:700; }
+    iframe { display:block; width:100%; height:760px; border:0; background:#fff; }
+    .fallback { margin:0; padding:14px 22px 20px; border-top:1px solid var(--line); }
+    footer { margin-top:26px; color:var(--muted); font-size:13px; }
+    @media print { body{background:#fff} main{width:100%;padding:12mm} .grid{grid-template-columns:repeat(2,1fr)} article{box-shadow:none;break-inside:avoid} a{color:inherit;text-decoration:none} }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>日本購物常用優惠券</h1>
+    <p class="lead">下方直接載入可在收銀台使用的即時優惠券條碼。</p>
+    <p class="notice"><strong>唐吉訶德／ドン・キホーテ：</strong>免稅滿 10,000 日圓可再折最高 5%，滿 30,000 日圓可再折最高 7%。請在下方直接點選符合金額的券，讓店員掃描顯示出的條碼。此券的發行方明定截圖無效，故保留為即時載入的條碼畫面。</p>
+
+    <section class="coupon-list">
+      <article class="coupon">
+        <div class="coupon-head"><h2>唐吉訶德優惠券 <span class="jp">ドン・キホーテ 免税クーポン</span></h2><p>免稅滿 ¥10,000：最高再折 5%；滿 ¥30,000：最高再折 7%。</p></div>
+        <iframe title="唐吉訶德即時優惠券條碼" src="https://japanportal.donki-global.com/coupon/?ptcd=0099000701" allow="fullscreen"></iframe>
+        <a href="https://japanportal.donki-global.com/coupon/?ptcd=0015000103" target="_blank" rel="noopener"></a><br>
+        <p class="fallback">無法顯示時：<a href="https://japanportal.donki-global.com/coupon/?ptcd=0099000701" target="_blank" rel="noopener">直接開啟條碼 ↗</a></p>
+      </article>
+
+      <article class="coupon">
+        <div class="coupon-head"><h2>必酷相機優惠券 <span class="jp">ビックカメラ 免税クーポン</span></h2><p>免稅後加碼 3–7% OFF；有效至 2026-10-31。</p></div>
+        <iframe title="必酷相機結帳優惠券條碼" src="https://livejapan.com/public/operation/coupon/biccamera/zh-tw.html?sc_lid=lj_article_a0005298" allow="fullscreen"></iframe>
+        <p class="fallback">無法顯示時：<a href="https://livejapan.com/public/operation/coupon/biccamera/zh-tw.html?sc_lid=lj_article_a0005298" target="_blank" rel="noopener">直接開啟條碼 ↗</a></p>
+      </article>
+
+      <article class="coupon">
+        <div class="coupon-head"><h2>尚都樂優惠券 <span class="jp">サンドラッグ 免税クーポン</span></h2><p>免稅滿 ¥10,000／¥30,000／¥50,000，可再折 3%／5%／7%。</p></div>
+        <iframe title="尚都樂結帳優惠券條碼" src="https://livejapan.com/public/operation/coupon/sundrug/ja.html" allow="fullscreen"></iframe>
+        <p class="fallback">無法顯示時：<a href="https://livejapan.com/public/operation/coupon/sundrug/ja.html" target="_blank" rel="noopener">直接開啟條碼 ↗</a></p>
+      </article>
+
+      <article class="coupon">
+        <div class="coupon-head"><h2>Laox 樂購仕優惠券 <span class="jp">ラオックス 免税クーポン</span></h2><p>滿 ¥5,000 可享免稅加 8% OFF；有效至 2026-12-31。</p></div>
+        <iframe title="Laox 樂購仕結帳優惠券條碼" src="https://livejapan.com/public/operation/coupon/laox/ja.html" allow="fullscreen"></iframe>
+        <p class="fallback">無法顯示時：<a href="https://livejapan.com/public/operation/coupon/laox/ja.html" target="_blank" rel="noopener">直接開啟條碼 ↗</a></p>
+      </article>
+    </section>
+
+    <footer>更新：2026-08-27。這張券限免稅交易使用，且不能與 majica 等折扣併用。</footer>
+  </main>
+</body>
+</html>
